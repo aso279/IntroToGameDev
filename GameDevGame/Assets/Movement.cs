@@ -2,37 +2,87 @@
 using System.Collections;
 
 public class Movement : MonoBehaviour {
-	public Rigidbody2D rb;
-	float moveSpeed;
-	// Use this for initialization
-	void Start () {
+	public float speed;
+	
+	private Rigidbody2D rb;
+	public int playerHealth;
+	public bool iFrames = false;
+	public GameObject GameOver;
+	
+	void Start ()
+	{
+		rb = GetComponent<Rigidbody2D>();
+		playerHealth = 5;
+	}
+	IEnumerator Hit1() {
+		iFrames = true;
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = false;
+		yield return new WaitForSeconds(.1f);
+		GetComponent<SpriteRenderer>().enabled = true;
+		yield return new WaitForSeconds(.1f);
+		iFrames = false;
+	}
+	
+	void FixedUpdate ()
+	{
+		float moveHorizontal = Input.GetAxis ("Horizontal");
 
+		float moveVertical = Input.GetAxis ("Vertical");
+		
+		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
+		
+		rb.AddForce (movement * speed);
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		Vector3 direction = new Vector3(0,0,0);
-		
-		if (Input.GetKey ("a")){
-			direction -= Vector3.right;
+
+	void OnCollisionEnter2D(Collision2D coll) {
+		if (coll.gameObject.tag == "Enemy" && iFrames == false){
+			playerHealth = playerHealth - 1;
+			StartCoroutine(Hit1());
+			Debug.Log (playerHealth);
+
 		}
-		
-		if(Input.GetKey("d")){
-		direction += Vector3.right;
 	}
-	
-	
-	if (Input.GetKey ("w")){
-		direction += Vector3.forward;     
-	}
-	
-	
-	if(Input.GetKey ("s")){
-		direction -= Vector3.forward;
-	}
-	if (direction == Vector3(0,0,0)){
-	    rb.AddForce(direction.normalized*moveSpeed*Time.deltaTime);
+	void Update() {
+		if(playerHealth == 0){
+		GameOver.SetActive(true);
 		}
+
 	}
 }
