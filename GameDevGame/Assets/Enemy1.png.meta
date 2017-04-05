@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: 7cdf68376360c0a43bae6428e80b89fb
+timeCreated: 1491403769
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Enemy1_0
+    21300002: Enemy1_1
+    21300004: Enemy1_2
+    21300006: Enemy1_3
+    21300008: Enemy1_4
+    21300010: Enemy1_5
+    21300012: Enemy1_6
+    21300014: Enemy1_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Enemy1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1567
+        width: 1102
+        height: 1307
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy1_1
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1579
+        width: 1088
+        height: 1397
+      alignment: 9
+      pivot: {x: .641792834, y: .0569383316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy1_2
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 1607
+        width: 1098
+        height: 1430
+      alignment: 9
+      pivot: {x: .776217341, y: .0690642223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy1_3
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 1632
+        width: 1085
+        height: 1329
+      alignment: 9
+      pivot: {x: .5, y: .0681645572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy1_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 1137
+        height: 1329
+      alignment: 9
+      pivot: {x: .368346423, y: .0257448703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy1_5
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 24
+        width: 1168
+        height: 1366
+      alignment: 9
+      pivot: {x: .313253313, y: .0438330211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy1_6
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 21
+        width: 1210
+        height: 1404
+      alignment: 9
+      pivot: {x: .181886375, y: .0487391539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemy1_7
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 0
+        width: 1164
+        height: 1366
+      alignment: 9
+      pivot: {x: .319517165, y: .0288363248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

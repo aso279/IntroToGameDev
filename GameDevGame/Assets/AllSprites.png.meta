@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: eacf247b2cf76ef48af7def901a4d779
+timeCreated: 1490817035
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AllSprites_0
+    21300002: AllSprites_1
+    21300004: AllSprites_2
+    21300006: AllSprites_3
+    21300008: AllSprites_4
+    21300010: AllSprites_5
+    21300012: AllSprites_6
+    21300014: AllSprites_7
+    21300016: AllSprites_8
+    21300018: AllSprites_9
+    21300020: AllSprites_10
+    21300022: AllSprites_11
+    21300024: AllSprites_12
+    21300026: AllSprites_13
+    21300028: AllSprites_14
+    21300030: AllSprites_15
+    21300032: AllSprites_16
+    21300034: AllSprites_17
+    21300036: AllSprites_18
+    21300038: AllSprites_19
+    21300040: AllSprites_20
+    21300042: AllSprites_21
+    21300044: AllSprites_22
+    21300046: AllSprites_23
+    21300048: AllSprites_24
+    21300050: AllSprites_25
+    21300052: AllSprites_26
+    21300054: AllSprites_27
+    21300056: AllSprites_28
+    21300058: AllSprites_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AllSprites_0
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 11562
+        width: 1050
+        height: 1474
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_1
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 11562
+        width: 1044
+        height: 1471
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_2
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 11562
+        width: 1050
+        height: 1464
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_3
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 11562
+        width: 1051
+        height: 1452
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_4
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 11562
+        width: 1050
+        height: 1445
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 9978
+        width: 1051
+        height: 1432
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_6
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 9978
+        width: 1051
+        height: 1419
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_7
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 9978
+        width: 1044
+        height: 1400
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_8
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 9978
+        width: 1050
+        height: 1387
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_9
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 9978
+        width: 1047
+        height: 1374
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 8424
+        width: 1051
+        height: 1388
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_11
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 8418
+        width: 1045
+        height: 1407
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_12
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 8424
+        width: 1050
+        height: 1420
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_13
+      rect:
+        serializedVersion: 2
+        x: 3677
+        y: 8463
+        width: 1050
+        height: 1432
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_14
+      rect:
+        serializedVersion: 2
+        x: 4753
+        y: 8456
+        width: 1050
+        height: 1439
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_15
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 6909
+        width: 1044
+        height: 1452
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 5165
+        width: 1050
+        height: 1439
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_17
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 5096
+        width: 1044
+        height: 1508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_18
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 5070
+        width: 1050
+        height: 1534
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_19
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 3415
+        width: 1050
+        height: 1438
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_20
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 3351
+        width: 1044
+        height: 1502
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_21
+      rect:
+        serializedVersion: 2
+        x: 2722
+        y: 3319
+        width: 1050
+        height: 1534
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_22
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1722
+        width: 777
+        height: 1432
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_23
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1652
+        width: 783
+        height: 1508
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_24
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 1684
+        width: 204
+        height: 241
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_25
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 1626
+        width: 770
+        height: 1522
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_26
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 92
+        width: 777
+        height: 1432
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_27
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 22
+        width: 784
+        height: 1509
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_28
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 0
+        width: 770
+        height: 1518
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AllSprites_29
+      rect:
+        serializedVersion: 2
+        x: 3276
+        y: 54
+        width: 210
+        height: 242
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
